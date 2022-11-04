@@ -1,0 +1,69 @@
+.dashboard {
+  background-color: sandybrown;
+  height: 100vh;
+}
+.dashboard .row .list-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.dashboard .row .add-btn {
+  background-color: sandybrown;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+}
+.dashboard .added-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 219, 172, 0.877);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.dashboard .col-md-2 {
+  text-align: right;
+}
+.dashboard .list-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.dashboard .icon-trash-can {
+  color: rgb(167, 16, 23);
+}
+.dashboard .icon-edit-pencil {
+  color: rgb(6, 143, 6);
+}
+.dashboard .logout-btn {
+  width: 200px;
+  background-color: rgba(238, 119, 40, 0.76);
+  border: none;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.dashboard .clear-btn {
+  width: 200px;
+  background-color: rgba(40, 93, 238, 0.76);
+  border: none;
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 6px;
+}

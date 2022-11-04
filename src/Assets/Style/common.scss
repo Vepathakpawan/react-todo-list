@@ -1,0 +1,68 @@
+@import "../Style/login.css";
+@import "../Style/dashboard.css";
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  *,
+*::before,
+*::after{box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.d-row{
+    flex-direction: row;
+    justify-content: space-around;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url("../icomoon/icomoon.eot") format('embedded-opentype'),
+      url("../icomoon/icomoon.ttf") format('truetype'),
+      url("../icomoon/icomoon.woff") format('woff'),
+      url("../icomoon/icomoon.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-trash-can:before {
+    content: "\e900";
+  }
+  .icon-document-edit:before {
+    content: "\e901";
+  }
+  .icon-edit-pencil:before {
+    content: "\e902";
+  }
+  .icon-trash:before {
+    content: "\e903";
+  }
+  

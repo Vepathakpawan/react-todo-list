@@ -1,0 +1,66 @@
+.dashboard{
+    background-color:sandybrown ;
+    height: 100vh;
+.row{
+    
+    .list-outline {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: flex-end;
+
+        
+    }
+    
+    .add-btn{
+    background-color: sandybrown;
+    border: none;
+    padding: 9px;
+    border-radius: 6px;
+
+    }
+}
+
+.added-list{
+    display: flex;
+    background-color: rgba(255, 219, 172, 0.877);
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+    .col-md-2{
+        text-align: right;
+    }
+    .list-btn{
+        border: none;
+        background-color: transparent;
+        font-size: 20px
+        }
+        .icon-trash-can{
+            color: rgb(167, 16, 23);
+        }
+        .icon-edit-pencil{
+            color: rgb(6, 143, 6);
+        }
+
+        .logout-btn{
+            width: 200px;
+            background-color: rgba(238, 119, 40, 0.76);
+            border: none;
+            padding: 5px;
+            margin: 0 auto;
+            border-radius: 6px;
+        }
+        .clear-btn{
+            width: 200px;
+            background-color: rgba(40, 93, 238, 0.76);
+            border: none;
+            color: #ffff;
+            padding: 5px;
+            margin: 0 auto;
+            border-radius: 6px;
+        }
+}
