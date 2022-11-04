@@ -135,13 +135,13 @@ const ClearAll = () =>{
             return (
               <>
                 <div className="added-list" key="elem.id">
-                  <div className="col col-md-5 title-section">
+                  <div className="col-4 col-md-5 title-section">
                     <p>{elem.name}</p>
                   </div>
-                  <div className="col col-md-3 Date-section">
+                  <div className="col-4 col-sm-2 col-md-3 Date-section">
                     <p >{elem.date}</p>
                   </div>
-                  <div className="col col-md-2 edit-section">
+                  <div className="col-2  col-sm-2 col-md-2 edit-section">
                     <button
                       className="list-btn edit"
                       onClick={() => editItem(elem.id)}
@@ -149,7 +149,7 @@ const ClearAll = () =>{
                       <i className="icon-edit-pencil"></i>
                     </button>
                   </div>
-                  <div className="col col-md-2 delet-section">
+                  <div className="col-2 col-sm-2 col-md-2 delet-section">
                     <button
                       className="list-btn delet"
                       onClick={() => deletItems(elem.id)}
